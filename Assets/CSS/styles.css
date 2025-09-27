@@ -1,0 +1,94 @@
+
+body{
+    height: 97vh;
+    background-color: rgba(0, 0, 0, 0.90);
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    border: 5px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#DP, #Profile{
+    border-radius: 50%;
+    padding: 3rem;
+}
+
+#profileTable{
+    background-color: rgb(61, 68, 66);
+    border: 1px solid gray;
+    box-shadow: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;    
+}
+
+#profileTable td{
+    justify-items: center;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid rgb(46, 45, 45);
+    border-bottom: 3px solid rgb(46, 45, 45);
+    border-radius: 0.4rem;
+    padding: 0 2rem;
+}
+
+.NavBar{
+    /* border: 5px solid brown; */
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+
+.NavBar a{
+    text-decoration: none;
+    justify-content: flex-end;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    
+}
+
+
+.NavBar a:hover, 
+.NavBar a#activeWindow{
+    text-decoration: underline;
+    color: crimson;
+    font-size: 1.2rem;
+    padding: 0 1rem;    
+}
+
+.profileimg{
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    padding: 1rem;
+    /* border: 2px solid red; */
+}
+
+.photo{
+    border-radius: 10%;
+    /* border: 9px solid red; */
+    /* box-shadow: 1rem 0.5rem 10px rgb(109, 45, 48); */
+    height: 15rem;
+
+}
+.photo:hover{
+    box-shadow: 0.5rem 0.5rem 3rem silver, -0.5rem -0.5rem 3rem silver;
+    height: 17rem;
+}
+
+.description{
+    font-size: 1.3rem;
+    justify-items: center;
+    width: 60vw;
+    padding: 1rem;
+    border: 5px solid seagreen;
+    
+}
